@@ -6,4 +6,6 @@ pip install pypd -t ../lambda
 
 chmod -R 755 ../lambda
 
-zip -r ../deployment.zip ../lambda
+# zip -r ../deployment.zip ../lambda
+
+7z a -tzip ../deployment.zip ../lambda
